@@ -94,7 +94,7 @@ ul li.checked::before {
   background-image: url(IMG/check.png);
 }
 
-ul li span{
+ul li span {
   position: absolute;
   right: 0;
   top: 5px;
@@ -107,6 +107,6 @@ ul li span{
   border-radius: 50%;
 }
 
-ul li span:hover{
+ul li span:hover {
   background: #f0edef;
 }
