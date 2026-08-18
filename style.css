@@ -39,7 +39,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(135deg, #153677, #4e085f);
   border-radius: 30px;
   padding-left: 20px;
   margin-bottom: 25px;
@@ -47,7 +46,8 @@
 
 input {
   flex: 1;
-  border-radius: 10px;
+  background-color: rgb(224, 220, 220);
+  border-radius: 15px;
   border: none;
   outline: none;
   padding: 10px;
@@ -62,5 +62,25 @@ button {
   font-size: 16px;
   cursor: pointer;
   border-radius: 40px;
+}
 
+ul li {
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+ul li::before {
+  content: '';
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(IMG/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
 }
